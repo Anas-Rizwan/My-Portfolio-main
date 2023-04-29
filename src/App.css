@@ -1,0 +1,67 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #051f38;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 31, 56);
+    box-shadow: 0px -6px 31px 4px rgba(0,0,0,0.75);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social_icon_fb {
+    font-size: 45px;
+    margin: 10px;
+    color: white;
+}
+
+.social_icon_fb:hover {
+    color: #3b5998;
+}
+
+.social_icon_git {
+    font-size: 45px;
+    margin: 10px;
+    color: white;
+}
+
+.social_icon_git:hover {
+    color: black;
+}
+
+.social_icon_li {
+    font-size: 45px;
+    margin: 10px;
+    color: white;
+}
+
+.social_icon_li:hover {
+    color: #0A66C2;
+}
+.right_reserved{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.my_services:hover{
+    cursor: pointer;
+    box-shadow: 0px -6px 31px 4px rgba(0,0,0,0.75);
+}

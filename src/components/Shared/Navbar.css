@@ -1,0 +1,14 @@
+.daddynav{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.Nav_btn{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 0 22px;
+    text-align: center;
+}
